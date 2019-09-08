@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="./css/main.css" rel="stylesheet" type="text/css">
+	</header>
+	<title>Interview Progress Bar and Timer</title>
+	<body>
+	<div class="container topOfPage">
+		<div class="col-md-12">
+			<h2>Stop Watch</h2>
+				<div class="col-md-8 watch">
+					<div id="timerText" class="timerText">0</div>
+				</div>
+			<button id="btnStart" class="btn btn-primary">START</button>
+			<button id="btnStop" class="btn btn-secondary">STOP</button>
+			<button id="btnReset" class="btn btn-danger">RESET</button>
+		</div>
+	</div>
+	<hr/>
+	<div class="container">
+		<div class="col-md-12">
+		<h2>Progress Bar</h2>
+		<div class="col-md-8 watch">
+			<div id="progress" class="timerText">0</div>
+		</div>
+		<div class="bar-container">
+			<div class="bar"></div>
+		</div>
+		
+		<button onclick="loadBar(1)" class="loadbar btn btn-success">LOAD BAR</button>
+		</div>
+	</div>
+	</body>
+	
+	<script src="js/script.js"></script>
+
+</html>

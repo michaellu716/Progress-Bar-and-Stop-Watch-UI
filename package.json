@@ -1,0 +1,15 @@
+{
+  "name": "progress_bar_stop_watch",
+  "version": "1.0.0",
+  "description": "dom manipulation and ui",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "michaellu716"
+  },
+  "author": "mlu",
+  "license": "ISC"
+}
